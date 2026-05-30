@@ -63,7 +63,7 @@ def main():
             has_key = bool(api_key("OPENAI_API_KEY"))
             st.caption("필요 키: OPENAI_API_KEY")
         else:
-            model = st.selectbox("모델", ["gemini-1.5-flash", "gemini-1.5-pro"])
+            model = st.selectbox("모델", ["gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-3.1-pro"])
             has_key = bool(api_key("GEMINI_API_KEY"))
             st.caption("필요 키: GEMINI_API_KEY")
 
